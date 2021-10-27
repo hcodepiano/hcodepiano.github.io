@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "concurrently \"tsc -w\" \"sass --watch src/assets/sass/main.scss:dist/assets/css/main.css\"",
+    "tsc": "tsc -w",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -12,8 +13,10 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
+    "concurrently": "^6.3.0",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
+    "sass": "^1.43.3",
     "styled-components": "^5.3.1",
     "vue-styled-components": "^1.6.0"
   },

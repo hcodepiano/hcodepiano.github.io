@@ -6,31 +6,22 @@
     "lib": [
       "ESNext",
       "ESNext.AsyncIterable",
-      "DOM"
+      "DOM",
+      "DOM.iterable"
     ],
     "esModuleInterop": true,
-    "allowJs": true,
     "sourceMap": true,
     "strict": true,
-    "noEmit": true,
+    "noEmit": false,
     "experimentalDecorators": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
-    },
+    "rootDir": "./src/assets/typescript",
+    "outDir": "./dist/assets/javascript",
     "types": [
-      "@nuxt/types",
       "@types/node"
     ]
   },
   "exclude": [
     "node_modules",
-    ".nuxt",
-    "dist"
+    ".nuxt"
   ]
 }
