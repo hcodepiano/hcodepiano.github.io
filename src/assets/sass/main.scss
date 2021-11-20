@@ -27,6 +27,13 @@ main {
                     width: 28px;
                     height: 123px;
                     background-color: #000;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &.pressed {
+                        background-color: #FF760C;
+                    }
                 }
                 > span {
                     position: absolute;
