@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"tsc -w\" \"sass --watch src/assets/sass/main.scss:dist/assets/css/main.css\"",
+    "dev": "concurrently \"tsc -w\" \"sass --watch assets/sass/main.scss:dist/assets/css/main.css\"",
     "tsc": "tsc -w",
     "build": "nuxt build",
     "start": "nuxt start",
