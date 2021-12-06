@@ -14,14 +14,7 @@
     "strict": true,
     "noEmit": false,
     "experimentalDecorators": true,
-    "rootDir": "./src/assets/typescript",
+    "rootDir": "./assets/typescript",
     "outDir": "./dist/assets/javascript",
-    "types": [
-      "@types/node"
-    ]
   },
-  "exclude": [
-    "node_modules",
-    ".nuxt"
-  ]
 }
