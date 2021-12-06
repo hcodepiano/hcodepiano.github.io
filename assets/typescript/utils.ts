@@ -2,7 +2,7 @@ export function playAudio(keyName: string): void {
 
     try {
 
-        const audio = new Audio(`../src/assets/audio/${keyName}`);
+        const audio = new Audio(`assets/audio/${keyName}`);
 
         audio.currentTime = 1;
         
