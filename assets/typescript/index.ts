@@ -97,4 +97,4 @@ document.addEventListener('keydown', (event: KeyboardEvent) => {
         console.error('Nota não encontrada.');
     }
 
-})
+});
