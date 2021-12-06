@@ -7,139 +7,158 @@ const keyboardKeys: KeyboardKey[] = [{
 }, {
     key: 's',
     keyCode: 83,
-    pianoKey: 'a.mp3'
+    pianoKey: 'd2',
 }, {
     key: 'd',
     keyCode: 68,
-    pianoKey: 'a.mp3'
+    pianoKey: 'e2',
 }, {
     key: 'f',
     keyCode: 70,
-    pianoKey: 'a.mp3'
+    pianoKey: 'f2',
 }, {
     key: 'g',
     keyCode: 71,
-    pianoKey: 'a.mp3'
+    pianoKey: 'g2',
 }, {
     key: 'h',
     keyCode: 72,
-    pianoKey: 'a.mp3'
+    pianoKey: 'a2',
 }, {
     key: 'j',
     keyCode: 74,
-    pianoKey: 'a.mp3'
+    pianoKey: 'b2',
 }, {
     key: 'k',
     keyCode: 75,
-    pianoKey: 'a.mp3'
+    pianoKey: 'c3',
 }, {
     key: 'l',
     keyCode: 76,
-    pianoKey: 'a.mp3'
+    pianoKey: 'd3',
 }, {
     key: 'ç',
     keyCode: 186,
-    pianoKey: 'a.mp3'
+    pianoKey: 'e3',
 }, {
     key: ']',
     keyCode: 93,
-    pianoKey: 'a.mp3'
+    pianoKey: 'f3',
 }, {
     key: 'q',
     keyCode: 81,
-    pianoKey: 'a.mp3'
+    pianoKey: 'g3',
 }, {
     key: 'w',
     keyCode: 87,
-    pianoKey: 'a.mp3'
+    pianoKey: 'a3',
 }, {
     key: 'e',
     keyCode: 69,
-    pianoKey: 'a.mp3'
+    pianoKey: 'b3',
 }, {
     key: 'r',
     keyCode: 82,
-    pianoKey: 'a.mp3'
+    pianoKey: 'c4',
 }, {
     key: 't',
     keyCode: 84,
-    pianoKey: 'a.mp3'
+    pianoKey: 'd4',
 }, {
     key: 'y',
     keyCode: 89,
-    pianoKey: 'a.mp3'
+    pianoKey: 'e4',
 }, {
     key: 'u',
     keyCode: 85,
-    pianoKey: 'a.mp3'
+    pianoKey: 'f4',
 }, {
     key: 'i',
     keyCode: 73,
-    pianoKey: 'a.mp3'
+    pianoKey: 'g4',
 }, {
     key: 'o',
     keyCode: 79,
-    pianoKey: 'a.mp3'
+    pianoKey: 'a4',
 }, {
     key: 'p',
     keyCode: 80,
-    pianoKey: 'a.mp3'
+    pianoKey: 'b4',
 }, {
     key: '[',
     keyCode: 91,
-    pianoKey: 'a.mp3'
+    pianoKey: 'c2',
+    isSharp: true,
 }, {
     key: '1',
     keyCode: 49,
-    pianoKey: 'a.mp3'
+    pianoKey: 'd2',
+    isSharp: true,
 }, {
     key: '2',
     keyCode: 50,
-    pianoKey: 'a.mp3'
+    pianoKey: 'f2',
+    isSharp: true,
 }, {
     key: '3',
     keyCode: 51,
-    pianoKey: 'a.mp3'
+    pianoKey: 'g2',
+    isSharp: true,
 }, {
     key: '4',
     keyCode: 52,
-    pianoKey: 'a.mp3'
+    pianoKey: 'a2',
+    isSharp: true,
 }, {
     key: '5',
     keyCode: 53,
-    pianoKey: 'a.mp3'
+    pianoKey: 'c3',
+    isSharp: true,
 }, {
     key: '6',
     keyCode: 54,
-    pianoKey: 'a.mp3'
+    pianoKey: 'd3',
+    isSharp: true,
 }, {
     key: '7',
     keyCode: 55,
-    pianoKey: 'a.mp3'
+    pianoKey: 'f3',
+    isSharp: true,
 }, {
     key: '8',
     keyCode: 56,
-    pianoKey: 'a.mp3'
+    pianoKey: 'g3',
+    isSharp: true,
 }, {
     key: '9',
     keyCode: 57,
-    pianoKey: 'a.mp3'
+    pianoKey: 'a3',
+    isSharp: true,
 }, {
     key: '0',
     keyCode: 48,
-    pianoKey: 'a.mp3'
+    pianoKey: 'c4',
+    isSharp: true,
 }, {
     key: 'z',
     keyCode: 90,
-    pianoKey: 'a.mp3'
+    pianoKey: 'd4',
+    isSharp: true,
 }, {
     key: 'x',
     keyCode: 88,
-    pianoKey: 'a.mp3'
+    pianoKey: 'f4',
+    isSharp: true,
 }, {
     key: 'c',
     keyCode: 67,
-    pianoKey: 'a.mp3'
+    pianoKey: 'g4',
+    isSharp: true,
+}, {
+    key: 'v',
+    keyCode: 67,
+    pianoKey: 'a4',
+    isSharp: true,
 }];
 
 export default keyboardKeys;

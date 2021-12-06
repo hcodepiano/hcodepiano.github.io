@@ -16,6 +16,7 @@ main {
                 height: 220px;
                 border-right: 1px solid #000;
                 position: relative;
+                text-align: center;
                 &.pressed {
                     background-color: #FF760C;
                     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.8);
