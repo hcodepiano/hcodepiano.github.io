@@ -41,7 +41,6 @@ pianoKeysEl.forEach((element) => {
 document.addEventListener('keydown', (event) => {
     const pressedKey = event.key;
     const pianoKey = keyboardKeys.filter((item) => item.key === pressedKey)[0];
-    console.log(pressedKey, pianoKey);
     if (pianoKey) {
         const pianoElement = pianoKeysEl.filter((el) => el.dataset.key === pianoKey.pianoKey.split(".")[0])[0];
         if (pianoElement) {
